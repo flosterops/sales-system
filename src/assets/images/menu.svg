@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+    <defs>
+        <style>
+            .cls-2{fill:#606eb2}
+        </style>
+    </defs>
+    <g id="Group_20" data-name="Group 20" transform="translate(-445 -210)">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="4" cy="4" r="4" transform="translate(445 210)" style="fill:#6bcaba"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-2" cx="4" cy="4" r="4" transform="translate(457 210)"/>
+        <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-2" cx="4" cy="4" r="4" transform="translate(469 210)"/>
+        <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-2" cx="4" cy="4" r="4" transform="translate(445 222)"/>
+        <circle id="Ellipse_6" data-name="Ellipse 6" class="cls-2" cx="4" cy="4" r="4" transform="translate(457 222)"/>
+        <circle id="Ellipse_7" data-name="Ellipse 7" class="cls-2" cx="4" cy="4" r="4" transform="translate(469 222)"/>
+        <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-2" cx="4" cy="4" r="4" transform="translate(445 234)"/>
+        <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-2" cx="4" cy="4" r="4" transform="translate(457 234)"/>
+        <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-2" cx="4" cy="4" r="4" transform="translate(469 234)"/>
+    </g>
+</svg>

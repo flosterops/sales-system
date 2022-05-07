@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1fa0f3cb-f8c0-4e63-a47b-345ec3b0560b",
+    "componentType": "AddGroupsSection",
+    "route": "/groups/add",
+    "routeType": "public",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "199a3501-9a59-4063-8d5b-79394c7544a9",
+    "componentType": "AddUsersSection",
+    "route": "/users/add",
+    "routeType": "public",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "021fb7a1-2f7f-4ff9-bb01-04f6f21306ae",
+    "componentType": "EditUserSection",
+    "route": "/users/:id",
+    "routeType": "public",
+    "exact": false,
+    "redirect": null
+  },
+  {
+    "id": "809c3df0-ae8a-4089-9eed-123abaf1bff2",
+    "componentType": "EditGroupSection",
+    "route": "/groups/:id",
+    "routeType": "public",
+    "exact": false,
+    "redirect": null
+  },
+  {
+    "id": "7ea293dc-6607-4a0b-880a-d8f1faaa1ca9",
+    "componentType": "GroupsSection",
+    "route": "/groups",
+    "routeType": "public",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "ce21a9f2-cb99-4cd5-8a77-b50290926ea6",
+    "componentType": "ProfilePage",
+    "route": "/profile",
+    "routeType": "public",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "ee164f57-dd94-4e4f-9529-27fe8be01897",
+    "componentType": "UsersSection",
+    "route": "/users",
+    "routeType": "public",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "33b813c3-9a75-494d-a296-1cf3933350b4",
+    "componentType": "UsersSection",
+    "route": "/",
+    "routeType": "public",
+    "exact": true,
+    "redirect": "/users"
+  },
+  {
+    "id": "32079ead-0a52-4395-8e72-3d974ded72a0",
+    "componentType": "UsersSection",
+    "route": "*",
+    "routeType": "public",
+    "exact": true,
+    "redirect": "/users"
+  }
+]

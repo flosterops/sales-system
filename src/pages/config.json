@@ -1,0 +1,42 @@
+[
+  {
+    "id": "581c432a-4bf2-465c-bb4b-9d09594e4d2b",
+    "componentType": "TokenPage",
+    "route": "/token-page",
+    "routeType": "public",
+    "exact": false,
+    "redirect": null
+  },
+  {
+    "id": "934c475a-b89c-4a98-81cd-f0fc8586691d",
+    "componentType": "MainPage",
+    "route": "/users",
+    "routeType": "private",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "ce21a9f2-cb99-4cd5-8a77-b50290926ea6",
+    "componentType": "ProfilePage",
+    "route": "/profile",
+    "routeType": "private",
+    "exact": false,
+    "redirect": null
+  },
+  {
+    "id": "026bd3ea-5dc0-486a-9542-9765afdc7681",
+    "componentType": "MainPage",
+    "route": "/",
+    "routeType": "private",
+    "exact": true,
+    "redirect": "/users"
+  },
+  {
+    "id": "7c55e0e4-6a41-42fa-8f56-44dee17ae227",
+    "componentType": "ErrorPage",
+    "route": "*",
+    "routeType": "public",
+    "exact": false,
+    "redirect": null
+  }
+]

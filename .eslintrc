@@ -1,0 +1,77 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "airbnb-typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "react",
+    "prettier",
+    "react-hooks"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          "jsx",
+          ".ts",
+          "tsx"
+        ]
+      }
+    ],
+    "prettier/prettier": "error",
+    "max-len": "off",
+    "react/prop-types": "off",
+    "react/destructuring-assignment": "off",
+    "linebreak-style": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "no-param-reassign": "off",
+    "camelcase": "off",
+    "react/prefer-stateless-function": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "no-bitwise": "off",
+    "func-names": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-boolean-value": "off",
+    "import/extensions": "off",
+    "no-underscore-dangle": "off",
+    "import/no-named-default": "off",
+    "no-shadow": "off",
+    "no-use-before-define": "off",
+    "no-plusplus": "off",
+    "react/sort-comp": "off",
+    "react/no-multi-comp": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/no-cycle" : "off",
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": [
+          "node_modules"
+        ]
+      }
+    }
+  }
+}
